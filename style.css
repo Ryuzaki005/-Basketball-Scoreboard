@@ -1,0 +1,115 @@
+#main-container {
+    width: 575px;
+    height: 385px;
+    background-color: #18244c;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-board {
+    width: 155px;
+    height: 120px;  
+    background-color: #0a0001;
+    margin-left: 82px;
+    text-align: center;
+}
+
+#guest-board {
+    width: 155px;
+    height: 120px;  
+    background-color: #0a0001;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#home-title {
+    width: 149px;
+    height: 36px;  
+    color: #EEEEEE;
+    margin-top: 68px;
+    margin-bottom: 21px;
+    margin-left: 85px;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;    
+}
+
+#guest-title {
+    width: 149px;
+    height: 36px;  
+    color: #EEEEEE;
+    margin-top: 68px;
+    margin-bottom: 21px;
+    margin-left: 106px;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;    
+}
+
+#home-btns {
+    width: 155px;
+    height: 45px;      
+    margin-left: 82px;      
+    margin-top: 26px;
+}
+
+#guest-btns {
+    width: 155px;
+    height: 45px;
+    margin-left: 100px;
+    margin-top: 26px;
+}
+
+.btn-add {
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;    
+    background-color: #18244c;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.81px;
+    text-align: center;                                              
+}
+
+#btn-add-center {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#guest-board-js {
+    width: 117px;
+    height: 120px;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    line-height: 126.67px;
+    margin: 0 auto;
+}
+
+#home-board-js {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    line-height: 126.67px;
+    margin: 0 auto;
+}
+
+.reset-btn {
+    width: 90px;
+    height: 45px;
+    border: 2.4px solid #18244c;
+    border-radius: 5px;
+    background-color: #9AABD8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px 1px #9AABD8;
+    font-weight: 700;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}

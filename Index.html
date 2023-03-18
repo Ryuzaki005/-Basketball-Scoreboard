@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Basketball Scoreboard</title>
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="shortcut icon" href="Basketball.png" type="image/Basketball-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="home-container"> 
+            <div id="home-title">
+                <p>HOME</p>
+            </div>
+            <div id="home-board">
+                <p id="home-board-js"></p>
+            </div>
+            <div id="home-btns">
+                <button class="btn-add" onclick="btnHomeAdd1()">+1</button>
+                <button class="btn-add" onclick="btnHomeAdd2()" id="btn-add-center">+2</button>
+                <button class="btn-add" onclick="btnHomeAdd3()">+3</button>
+            </div>
+        </div>
+        <div id="guest-container"> 
+            <div id="guest-title">
+                <p>GUEST</p>
+            </div>
+            <div id="guest-board">
+                <p id="guest-board-js"></p>
+            </div>
+            <div id="guest-btns">
+                <button class="btn-add" onclick="btnGuestAdd1()">+1</button>
+                <button class="btn-add" onclick="btnGuestAdd2()" id="btn-add-center">+2</button>
+                <button class="btn-add" onclick="btnGuestAdd3()">+3</button>
+            </div>
+            <div>
+                <button class="reset-btn" onclick="reset()">RESET</button>
+            </div>
+        </div>
+       
+        <script src="Index.js"></script>
+        <div>
+
+        </div>
+    </div>
+</body>
+</html>
